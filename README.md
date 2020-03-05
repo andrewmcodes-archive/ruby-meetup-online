@@ -5,14 +5,16 @@
 <p align="center">Landing page to collect email addresses for those interested in an online Ruby meetup.</p>
 <p align="center">
   <img alt="Version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/andrewmcodes/ruby-meetup-online/graphs/commit-activity" target="_blank">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
-  </a>
+  <img alt="CI" src="https://github.com/andrewmcodes/ruby-meetup-online/workflows/Linters/badge.svg" />
+  <a href="https://codeclimate.com/github/andrewmcodes/ruby-meetup-online/maintainability"><img src="https://api.codeclimate.com/v1/badges/b0a6f9ae98f3af46b7f6/maintainability" /></a>
   <a href="https://github.com/andrewmcodes/ruby-meetup-online/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/github/license/andrewmcodes/ruby-meetup-online" />
   </a>
 </p>
 <p align="center">
+  <a href="https://github.com/andrewmcodes/ruby-meetup-online/graphs/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  </a>
   <a href="https://twitter.com/andrewmcodes" target="_blank">
     <img alt="Twitter: andrewmcodes" src="https://img.shields.io/twitter/follow/andrewmcodes.svg?style=social" />
   </a>
