@@ -28,7 +28,8 @@
   "scripts": {
     "analyze:lint": "eslint --ext .jsx --ext .js .",
     "analyze:prettier": "prettier --list-different \"**/*.{css,js,jsx,json,md}\"",
-    "analyze": "yarn run analyze:lint && yarn run analyze:prettier",
+    "analyze:language": "alex ./",
+    "analyze": "yarn run analyze:lint && yarn run analyze:prettier && yarn run analyze:language",
     "fix:lint": "eslint --ext .jsx --ext .js . --fix",
     "fix:prettier": "prettier --write \"**/*.{css,js,jsx,json,md}\"",
     "fix": "yarn run fix:lint && yarn run fix:prettier",
@@ -40,6 +41,7 @@
   },
   "devDependencies": {
     "@tailwindcss/custom-forms": "0.2.1",
+    "alex": "^8.1.1",
     "autoprefixer": "9.7.4",
     "babel-eslint": "10.1.0",
     "cssnano": "4.1.10",
