@@ -2,4 +2,7 @@
 @tailwind base;
 @tailwind components;
 /* purgecss end ignore */
+.text-10xl {
+  font-size: 10rem;
+}
 @tailwind utilities;
