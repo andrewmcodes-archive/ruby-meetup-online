@@ -11,10 +11,12 @@ const EmailListForm = ({ setShowAlert }) => {
     addToMailchimp(email)
       .then(() => {
         setShowAlert(true);
+        window.scrollTo(0, 0);
       })
       .catch(error => {
         console.log(error);
       });
+    document.getElementById("email-form").value = "";
   };
 
   const handleEmailChange = event => {
@@ -30,6 +32,7 @@ const EmailListForm = ({ setShowAlert }) => {
         onChange={handleEmailChange}
         placeholder="Enter your email"
         type="email"
+        id="email-form"
       />
       <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0">
         <button
