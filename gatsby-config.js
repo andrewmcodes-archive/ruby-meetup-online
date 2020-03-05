@@ -20,6 +20,13 @@ module.exports = {
       }
     },
     {
+      resolve: "gatsby-plugin-mailchimp",
+      options: {
+        endpoint:
+          "https://protonmail.us19.list-manage.com/subscribe/post?u=eeebc60676240ae979f0da259&amp;id=cdde32891c"
+      }
+    },
+    {
       resolve: "gatsby-plugin-postcss",
       options: {
         postCssPlugins: [

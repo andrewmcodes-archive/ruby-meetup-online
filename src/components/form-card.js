@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 
-import Form from "./form";
+import EmailListForm from "./email-list-form";
 
 function FormCard() {
   return (
@@ -16,7 +16,7 @@ function FormCard() {
           </p>
         </div>
         <div className="mt-8 sm:w-full sm:max-w-md mx-auto xl:mt-0 xl:ml-8">
-          <Form />
+          <EmailListForm />
           <p className="mt-3 text-sm leading-5 text-indigo-200">
             We care about the protection of your data. Read our{` `}
             <Link
