@@ -1,15 +1,16 @@
+import PropTypes from "prop-types";
 import React, { useState } from "react";
 import addToMailchimp from "gatsby-plugin-mailchimp";
 
-const EmailListForm = () => {
+const EmailListForm = ({ setShowAlert }) => {
   const [email, setEmail] = useState("");
 
   const handleSubmit = e => {
     e.preventDefault();
 
     addToMailchimp(email)
-      .then(data => {
-        alert(data.result);
+      .then(() => {
+        setShowAlert(true);
       })
       .catch(error => {
         console.log(error);
@@ -40,6 +41,10 @@ const EmailListForm = () => {
       </div>
     </form>
   );
+};
+
+EmailListForm.propTypes = {
+  setShowAlert: PropTypes.func
 };
 
 export default EmailListForm;
