@@ -1,0 +1,59 @@
+{
+  "name": "ruby-meetup-online",
+  "description": "Landing page to collect email addresses for those interested in an online Ruby meetup",
+  "version": "0.0.1",
+  "author": "Andrew Mason <andrewmcodes@protonmail.com>",
+  "dependencies": {
+    "gatsby": "2.19.28",
+    "gatsby-plugin-manifest": "2.2.42",
+    "gatsby-plugin-offline": "3.0.35",
+    "gatsby-plugin-postcss": "2.1.20",
+    "gatsby-plugin-purgecss": "4.0.1",
+    "gatsby-plugin-react-helmet": "3.1.22",
+    "gatsby-plugin-sharp": "2.4.5",
+    "prop-types": "15.7.2",
+    "react": "16.13.0",
+    "react-dom": "16.13.0",
+    "react-helmet": "5.2.1"
+  },
+  "keywords": [
+    "ruby",
+    "rails",
+    "meetup",
+    "online"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "analyze:lint": "eslint --ext .jsx --ext .js .",
+    "analyze:prettier": "prettier --list-different \"**/*.{css,js,jsx,json,md}\"",
+    "analyze": "yarn run analyze:lint && yarn run analyze:prettier",
+    "fix:lint": "eslint --ext .jsx --ext .js . --fix",
+    "fix:prettier": "prettier --write \"**/*.{css,js,jsx,json,md}\"",
+    "fix": "yarn run fix:lint && yarn run fix:prettier",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "yarn run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "devDependencies": {
+    "@tailwindcss/custom-forms": "0.2.1",
+    "autoprefixer": "9.7.4",
+    "babel-eslint": "10.1.0",
+    "cssnano": "4.1.10",
+    "eslint": "6.8.0",
+    "eslint-loader": "3.0.3",
+    "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-react": "7.18.3",
+    "gatsby-plugin-eslint": "2.0.8",
+    "prettier": "1.19.1",
+    "tailwindcss": "1.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrewmcodes/ruby-meetup-online"
+  },
+  "bugs": {
+    "url": "https://github.com/andrewmcodes/ruby-meetup-online/issues"
+  }
+}
