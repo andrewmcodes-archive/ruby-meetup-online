@@ -14,6 +14,9 @@
   <a href="https://twitter.com/andrewmcodes" target="_blank">
     <img alt="Twitter: andrewmcodes" src="https://img.shields.io/twitter/follow/andrewmcodes.svg?style=social" />
   </a>
+  <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+  [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+  <!-- ALL-CONTRIBUTORS-BADGE:END -->
 </p>
 
 ## Table of Contents
@@ -64,3 +67,23 @@ Everyone interacting in the Pruner project's codebases, issue trackers, chat roo
 ## License
 
 This project is [MIT](https://github.com/andrewmcodes/ruby-meetup-online/blob/master/LICENSE) licensed.
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://andrewfomera.com"><img src="https://avatars1.githubusercontent.com/u/1741179?v=4" width="100px;" alt=""/><br /><sub><b>Andrew Fomera</b></sub></a><br /><a href="#content-king601" title="Content">🖋</a></td>
+    <td align="center"><a href="https://www.andrewm.codes"><img src="https://avatars1.githubusercontent.com/u/18423853?v=4" width="100px;" alt=""/><br /><sub><b>Andrew Mason</b></sub></a><br /><a href="https://github.com/andrewmcodes/ruby-meetup-online/commits?author=andrewmcodes" title="Code">💻</a> <a href="#content-andrewmcodes" title="Content">🖋</a> <a href="https://github.com/andrewmcodes/ruby-meetup-online/commits?author=andrewmcodes" title="Documentation">📖</a> <a href="#design-andrewmcodes" title="Design">🎨</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

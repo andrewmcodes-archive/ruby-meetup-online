@@ -1,10 +1,39 @@
 {
-  "files": ["README.md"],
+  "files": [
+    "README.md"
+  ],
   "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "king601",
+      "name": "Andrew Fomera",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1741179?v=4",
+      "profile": "https://andrewfomera.com",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "andrewmcodes",
+      "name": "Andrew Mason",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/18423853?v=4",
+      "profile": "https://www.andrewm.codes",
+      "contributions": [
+        "code",
+        "content",
+        "doc",
+        "design"
+      ]
+    }
+  ],
   "contributorsPerLine": 7,
+  "projectName": "ruby-meetup-online",
+  "projectOwner": "andrewmcodes",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true,
   "contributorsSortAlphabetically": true,
   "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg?style=flat-square)](#contributors)",
-  "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub><b><%= contributor.name %></b></sub></a>",
-  "skipCi": "true",
-  "contributors": []
+  "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub><b><%= contributor.name %></b></sub></a>"
 }
