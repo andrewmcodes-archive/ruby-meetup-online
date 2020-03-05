@@ -41,8 +41,7 @@ module.exports = {
       resolve: `gatsby-plugin-purgecss`,
       options: {
         tailwind: true,
-        purgeOnly: [`src/css/style.css`],
-        whitelistPatterns: [/[\w-/.:]+(?<!:)/g]
+        purgeOnly: [`src/css/style.css`]
       }
     },
     `gatsby-plugin-offline`
