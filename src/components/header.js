@@ -1,8 +1,8 @@
-import React from 'react'
-import { graphql, useStaticQuery, Link } from 'gatsby'
-import icon from '../images/icon.png'
+import React from "react";
+import { graphql, useStaticQuery, Link } from "gatsby";
+import icon from "../images/icon.png";
 
-function Header () {
+function Header() {
   const { site } = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -11,20 +11,20 @@ function Header () {
         }
       }
     }
-  `)
+  `);
 
   return (
     <header>
-      <nav className='bg-white'>
-        <div className='max-w-7xl mx-auto px-2 sm:px-6 lg:px-8'>
-          <div className='flex justify-between h-16'>
-            <div className='flex'>
+      <nav className="bg-white">
+        <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+          <div className="flex justify-between h-16">
+            <div className="flex">
               <Link
-                className='flex-shrink-0 flex items-center no-underline text-white'
-                to='/'
+                className="flex-shrink-0 flex items-center no-underline text-white"
+                to="/"
               >
-                <img alt='Gem Emoji' className='h-8 mr-2 w-8' src={icon} />
-                <span className='font-bold text-xl text-gray-500 hover:text-gray-800'>
+                <img alt="Gem Emoji" className="h-8 mr-2 w-8" src={icon} />
+                <span className="font-bold text-xl text-gray-500 hover:text-gray-800">
                   {site.siteMetadata.title}
                 </span>
               </Link>
@@ -33,7 +33,7 @@ function Header () {
         </div>
       </nav>
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;

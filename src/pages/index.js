@@ -1,9 +1,8 @@
 import React from "react";
-import { Link } from 'gatsby'
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import Form from "../components/form";
+import FormCard from "../components/form-card";
 
 function IndexPage() {
   return (
@@ -11,7 +10,7 @@ function IndexPage() {
       <SEO keywords={[`ruby`, `rails`, `meetup`, `online`]} title="Home" />
       <div className="relative bg-white overflow-hidden">
         <div className="relative pt-6 pb-16 md:pb-20 lg:pb-24 xl:pb-32">
-          <div className="mt-8 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-20 xl:mt-24">
+          <div className="max-w-screen-xl mx-auto px-4 pt-12 sm:px-6 lg:pt-16 lg:px-8">
             <div className="lg:grid lg:grid-cols-12 lg:gap-8">
               <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
                 <div className="text-sm font-semibold uppercase tracking-wide text-gray-500 sm:text-base lg:text-sm xl:text-base">
@@ -27,66 +26,8 @@ function IndexPage() {
                   qui lorem cupidatat commodo. Elit sunt amet fugiat veniam
                   occaecat fugiat aliqua ad ad non deserunt sunt.
                 </p>
-                <div className="mt-5 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
-                  <p className="text-base font-medium text-gray-900">
-                    Sign up to get notified when it’s ready.
-                  </p>
-                  <Form />
-                  <p className="mt-3 text-sm leading-5 text-gray-500">
-                    We care about the protection of your data. Read our{` `}
-                    <Link
-                      className="font-medium text-gray-900 underline"
-                      key={`Privacy`}
-                      to={`/privacy`}
-                    >
-                      Privacy Policy
-                    </Link>
-
-                    .
-                  </p>
-                </div>
               </div>
               <div className="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
-                <svg
-                  className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-8 scale-75 origin-top sm:scale-100 lg:hidden"
-                  width={640}
-                  height={784}
-                  fill="none"
-                  viewBox="0 0 640 784"
-                >
-                  <defs>
-                    <pattern
-                      id="svg-pattern-squares-mobile"
-                      x={118}
-                      y={0}
-                      width={20}
-                      height={20}
-                      patternUnits="userSpaceOnUse"
-                    >
-                      <rect
-                        x={0}
-                        y={0}
-                        width={4}
-                        height={4}
-                        className="text-gray-200"
-                        fill="currentColor"
-                      />
-                    </pattern>
-                  </defs>
-                  <rect
-                    y={72}
-                    width={640}
-                    height={640}
-                    className="text-gray-50"
-                    fill="currentColor"
-                  />
-                  <rect
-                    x={118}
-                    width={404}
-                    height={784}
-                    fill="url(#svg-pattern-squares-mobile)"
-                  />
-                </svg>
                 {/* img */}
                 <div className="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
                   <button className="relative block w-full rounded-lg overflow-hidden focus:outline-none focus:shadow-outline">
@@ -116,6 +57,7 @@ function IndexPage() {
               </div>
             </div>
           </div>
+          <FormCard />
         </div>
       </div>
     </Layout>
