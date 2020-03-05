@@ -7,5 +7,3 @@ plugins:
     enabled: true
   nodesecurity:
     enabled: true
-  stylelint:
-    enabled: true
