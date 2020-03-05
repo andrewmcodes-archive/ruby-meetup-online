@@ -1,3 +1,5 @@
+name: Linters
+
 on:
   push:
     branches: [ master ]
@@ -26,7 +28,9 @@ jobs:
           ${{ runner.os }}-yarn-
     - name: Yarn install
       run: yarn
-    - name: Analyze
-      run: yarn analyze
-      env:
-        CI: true
+    - name: Analyze - ESLint
+      run: yarn analyze:lint
+    - name: Analyze - Prettier
+      run: yarn analyze:prettier
+    - name: Analyze - Language
+      run: yarn analyze:language

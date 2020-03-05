@@ -1,10 +1,9 @@
 ---
 name: Bug report
 about: Help us to identify a bug so we can quickly fix it.
-title: ''
+title: ""
 labels: bug
 assignees: andrewmcodes
-
 ---
 
 # Bug Report
@@ -26,10 +25,12 @@ assignees: andrewmcodes
 <!-- If applicable, add screenshots to help explain your problem. -->
 
 ### Desktop
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
+
+- OS: [e.g. iOS]
+- Browser [e.g. chrome, safari]
 
 ### Mobile
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
+
+- Device: [e.g. iPhone6]
+- OS: [e.g. iOS8.1]
+- Browser [e.g. stock browser, safari]

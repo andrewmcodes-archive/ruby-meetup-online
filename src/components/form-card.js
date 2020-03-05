@@ -12,10 +12,12 @@ function FormCard() {
             Are you interested in online Ruby Meetups?
           </h2>
           <p className="mt-3 xl:max-w-3xl text-lg leading-6 text-indigo-200">
-            Enter your email to get added the list for updates or to get involved.
+            Enter your email to get added the list for updates or to get
+            involved.
           </p>
           <p className="italic mt-3 xl:max-w-3xl text-sm leading-6 text-indigo-200">
-            We&apos;ll only email you when we have updates to share. We hate spam as much as you do!
+            We&apos;ll only email you when we have updates to share. We hate
+            spam as much as you do!
           </p>
         </div>
         <div className="mt-8 sm:w-full sm:max-w-md mx-auto xl:mt-0 xl:ml-8">
