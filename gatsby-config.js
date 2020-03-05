@@ -14,8 +14,9 @@ module.exports = {
         short_name: `ruby_meetup`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#4dc0b5`,
-        display: `minimal-ui`,
+        theme_color: `#5850ec`,
+        lang: `en`,
+        display: `standalone`,
         icon: `src/images/icon.png`
       }
     },
