@@ -24,7 +24,7 @@ function Header() {
                 to="/"
               >
                 <img alt="Gem Emoji" className="h-8 mr-2 w-8" src={icon} />
-                <span className="font-bold text-xl text-gray-500 hover:text-gray-800">
+                <span className="font-bold text-xl text-indigo-600 hover:text-indigo-800">
                   {site.siteMetadata.title}
                 </span>
               </Link>
