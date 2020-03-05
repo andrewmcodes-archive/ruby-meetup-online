@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "author": "Andrew Mason <andrewmcodes@protonmail.com>",
   "dependencies": {
+    "@tailwindcss/ui": "^0.1.3",
     "gatsby": "2.19.28",
     "gatsby-plugin-manifest": "2.2.42",
     "gatsby-plugin-offline": "3.0.35",
