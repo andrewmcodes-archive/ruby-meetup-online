@@ -1,6 +1,6 @@
 # Ruby Meetup: Online
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/04251eba-2ebc-4071-bb77-31d392b6720c/deploy-status)](https://app.netlify.com/sites/ruby-meetup-online/deploys)
@@ -59,6 +59,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://andrewfomera.com"><img src="https://avatars1.githubusercontent.com/u/1741179?v=4" width="100px;" alt=""/><br /><sub><b>Andrew Fomera</b></sub></a><br /><a href="#content-king601" title="Content">🖋</a></td>
+    <td align="center"><a href="https://www.andrewm.codes"><img src="https://avatars1.githubusercontent.com/u/18423853?v=4" width="100px;" alt=""/><br /><sub><b>Andrew Mason</b></sub></a><br /><a href="https://github.com/andrewmcodes/ruby-meetup-online/commits?author=andrewmcodes" title="Code">💻</a> <a href="#content-andrewmcodes" title="Content">🖋</a> <a href="https://github.com/andrewmcodes/ruby-meetup-online/commits?author=andrewmcodes" title="Documentation">📖</a> <a href="#design-andrewmcodes" title="Design">🎨</a></td>
   </tr>
 </table>
 
