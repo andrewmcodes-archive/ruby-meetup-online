@@ -1,9 +1,16 @@
 {
-  "files": [
-    "README.md"
-  ],
+  "files": ["README.md"],
   "imageSize": 100,
   "commit": false,
+  "contributorsPerLine": 7,
+  "projectName": "ruby-meetup-online",
+  "projectOwner": "andrewmcodes",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true,
+  "contributorsSortAlphabetically": false,
+  "badgeTemplate": "<a href="#contributors"><img alt="All Contributors" src="https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg?style=flat-square" /></a>",
+  "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub><b><%= contributor.name %></b></sub></a>",
   "contributors": [
     {
       "login": "king601",
@@ -26,14 +33,5 @@
         "design"
       ]
     }
-  ],
-  "contributorsPerLine": 7,
-  "projectName": "ruby-meetup-online",
-  "projectOwner": "andrewmcodes",
-  "repoType": "github",
-  "repoHost": "https://github.com",
-  "skipCi": true,
-  "contributorsSortAlphabetically": true,
-  "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg?style=flat-square)](#contributors)",
-  "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub><b><%= contributor.name %></b></sub></a>"
+  ]
 }
