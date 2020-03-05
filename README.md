@@ -5,23 +5,30 @@
 <p align="center">Landing page to collect email addresses for those interested in an online Ruby meetup.</p>
 <p align="center">
   <img alt="Version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/andrewmcodes/ruby-meetup-online/graphs/commit-activity" target="_blank">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
-  </a>
+  <img alt="CI" src="https://github.com/andrewmcodes/ruby-meetup-online/workflows/Linters/badge.svg" />
+  <a href="https://codeclimate.com/github/andrewmcodes/ruby-meetup-online/maintainability"><img src="https://api.codeclimate.com/v1/badges/b0a6f9ae98f3af46b7f6/maintainability" /></a>
   <a href="https://github.com/andrewmcodes/ruby-meetup-online/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/github/license/andrewmcodes/ruby-meetup-online" />
   </a>
 </p>
 <p align="center">
+  <a href="https://github.com/andrewmcodes/ruby-meetup-online/graphs/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  </a>
   <a href="https://twitter.com/andrewmcodes" target="_blank">
     <img alt="Twitter: andrewmcodes" src="https://img.shields.io/twitter/follow/andrewmcodes.svg?style=social" />
   </a>
 </p>
 <div align="center">
 
+<!-- prettier-ignore-start -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
+<!-- prettier-ignore-end -->
+
 </div>
 
 ## Table of Contents
@@ -79,8 +86,8 @@ This project is [MIT](https://github.com/andrewmcodes/ruby-meetup-online/blob/ma
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- markdownlint-disable -->
 <table>
   <tr>
@@ -90,7 +97,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 </table>
 
 <!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+<!-- prettier-ignore-end -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
