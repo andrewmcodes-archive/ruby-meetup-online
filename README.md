@@ -1,47 +1,66 @@
-# Ruby Meetup: Online
+<h1 align="center">
+  <a href="https://rubymeetup.online" target="_blank" rel="noopener noreferrer">RubyMeetup.online</a>
+</h1>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/04251eba-2ebc-4071-bb77-31d392b6720c/deploy-status)](https://app.netlify.com/sites/ruby-meetup-online/deploys)
+<p align="center">Landing page to collect email addresses for those interested in an online Ruby meetup.</p>
+<p align="center">
+  <img alt="Version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/andrewmcodes/ruby-meetup-online/graphs/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  </a>
+  <a href="https://github.com/andrewmcodes/ruby-meetup-online/blob/master/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/andrewmcodes/ruby-meetup-online" />
+  </a>
+  <a href="https://twitter.com/andrewmcodes" target="_blank">
+    <img alt="Twitter: andrewmcodes" src="https://img.shields.io/twitter/follow/andrewmcodes.svg?style=social" />
+  </a>
+</p>
 
-## 🚀 Quick start
+## Table of Contents
+- [Development](#development)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+- [Contributing](#contributing)
+- [Code of Conduct](#code-of-conduct)
+- [License](#license)
 
-1.  **Start developing.**
+## Development
 
-    Fork the repository, navigate into the site’s directory and start it up.
+_Make sure you read the [contributing guide](https://github.com/andrewmcodes/ruby-meetup-online/blob/master/CONTRIBUTING.md) if you are planning to submit a PR!_
 
-    ```shell
-    cd ruby-meetup-online
-    yarn install
-    gatsby develop
-    ```
+### Prerequisites
 
-2.  **Open the source code and start editing!**
+- Node (I recommend using v12.16.1 or higher)
+- [Gatsby CLI](https://www.gatsbyjs.org/docs/)
 
-    Your site is now running at `http://localhost:8000`!
+### Install
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+```sh
+cd ruby-meetup-online
+yarn install
+```
 
-    Open the `ruby-meetup-online` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+### Usage
 
-## 🧐 What's inside?
+```sh
+gatsby develop
+```
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+You can now view ruby-meetup-online in the browser at http://localhost:8000/.
 
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .eslintrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── LICENSE
-    ├── package.json
-    ├── yarn.lock
-    └── README.md
+View GraphiQL, an in-browser IDE, to explore your site's data and schema at http://localhost:8000/___graphql
 
-## 🎓 Learning Gatsby
+## Contributing
 
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
+Contributions, issues and feature requests are welcome!
 
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+Feel free to check [issues page](https://github.com/andrewmcodes/ruby-meetup-online/issues). You can also take a look at the [contributing guide](https://github.com/andrewmcodes/ruby-meetup-online/blob/master/CONTRIBUTING.md).
 
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+## Code of Conduct
+
+Everyone interacting in the Pruner project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/andrewmcodes/pruner/blob/master/CODE_OF_CONDUCT.md).
+
+## License
+
+This project is [MIT](https://github.com/andrewmcodes/ruby-meetup-online/blob/master/LICENSE) licensed.

@@ -34,6 +34,7 @@ Work in Progress pull requests are also welcome to get feedback early on, or if 
 
 ## Resources
 
+- [GitHub Forking Tutorial](https://guides.github.com/activities/forking/)
 - [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
 - [Using Pull Requests](https://help.github.com/articles/about-pull-requests/)
 - [GitHub Help](https://help.github.com)
