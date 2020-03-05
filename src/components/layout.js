@@ -9,10 +9,10 @@ import Alert from "./alert";
 const Layout = ({ children }) => {
   const [showAlert, setShowAlert] = React.useState(false);
   return (
-    <div>
+    <div className="min-h-screen flex flex-col">
       <GithubCorner />
       <Header />
-      <main>
+      <main className="flex-grow">
         <Alert visible={showAlert} dismiss={() => setShowAlert(false)} />
         {children(setShowAlert)}
       </main>
