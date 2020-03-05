@@ -20,10 +20,15 @@ function IndexPage() {
                   <span className="text-indigo-600">fellow Rubyists?</span>
                 </h2>
                 <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                  Many of us would love to hangout with fellow Ruby developers, but there is no Ruby community where we live. We are toying with the idea of holding online Ruby meetups, and maybe even a remote conference??
+                  Many of us would love to hangout with fellow Ruby developers,
+                  but there is no Ruby community where we live. We are toying
+                  with the idea of holding online Ruby meetups, and maybe even a
+                  remote conference??
                 </p>
                 <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                  If this is something you are interested in, please enter your email below. We want to make sure there is enough interest before sinking time in this idea.
+                  If this is something you are interested in, please enter your
+                  email below. We want to make sure there is enough interest
+                  before sinking time in this idea.
                 </p>
               </div>
               <div className="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
