@@ -1,8 +1,15 @@
 module.exports = {
   siteMetadata: {
     title: `Ruby Meetup: Online`,
-    description: `Landing page to collect email addresses for those interested in an online Ruby meetup`,
-    author: `@andrewmcodes`
+    description: `Don't have any active Ruby meetups near you? Don't want to, or can't, go even if there are? We want to bring the joy of congregating with your Ruby friends to you with online Ruby meetups!`,
+    author: {
+      name: `Andrew Mason`,
+      summary: `Full stack Ruby on Rails developer for CodeFund and avid podcaster.`
+    },
+    siteUrl: `https://rubymeetup.online/`,
+    social: {
+      twitter: `andrewmcodes`
+    }
   },
   plugins: [
     "gatsby-plugin-eslint",
