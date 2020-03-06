@@ -1,28 +1,30 @@
 import PropTypes from "prop-types";
-import React from "react";
+import React, { useContext } from "react";
+import { GlobalStateContext } from "../context/GlobalContextProvider";
 
+import Banner from "./banner";
 import Footer from "./footer";
 import GithubCorner from "./github-corner";
 import Header from "./header";
-import Alert from "./alert";
 
-const Layout = ({ children }) => {
-  const [showAlert, setShowAlert] = React.useState(false);
+function Layout({ children }) {
+  const state = useContext(GlobalStateContext);
+
   return (
-    <div className="min-h-screen flex flex-col">
+    <div>
       <GithubCorner />
       <Header />
-      <main className="flex-grow">
-        <Alert visible={showAlert} dismiss={() => setShowAlert(false)} />
-        {children(setShowAlert)}
-      </main>
+      <main>{children}</main>
+      {state.bannerVisible && (
+        <Banner message={state.bannerMessage} type={state.bannerType} />
+      )}
       <Footer />
     </div>
   );
-};
+}
 
 Layout.propTypes = {
-  children: PropTypes.func.isRequired
+  children: PropTypes.node.isRequired
 };
 
 export default Layout;

@@ -1,22 +1,25 @@
-import PropTypes from "prop-types";
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import addToMailchimp from "gatsby-plugin-mailchimp";
+import { GlobalDispatchContext } from "../context/GlobalContextProvider";
 
-const EmailListForm = ({ setShowAlert }) => {
+const EmailListForm = () => {
+  const dispatch = useContext(GlobalDispatchContext);
   const [email, setEmail] = useState("");
 
-  const handleSubmit = e => {
+  const handleSubmit = async e => {
     e.preventDefault();
+    const data = await addToMailchimp(email);
+    const result = data["result"];
+    const message = data["msg"].replace(/"/g, "");
 
-    addToMailchimp(email)
-      .then(() => {
-        setShowAlert(true);
-        window.scrollTo(0, 0);
-      })
-      .catch(error => {
-        console.log(error);
-      });
-    document.getElementById("email-form").value = "";
+    dispatch({
+      type: "TOGGLE_BANNER",
+      bannerType: result,
+      bannerMessage: message,
+      bannerVisible: true
+    });
+
+    if (result === "success") setEmail("");
   };
 
   const handleEmailChange = event => {
@@ -30,6 +33,7 @@ const EmailListForm = ({ setShowAlert }) => {
         className="appearance-none w-full px-5 py-3 border border-transparent text-base leading-6 rounded-md text-gray-900 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 transition duration-150 ease-in-out sm:max-w-xs"
         name="email"
         onChange={handleEmailChange}
+        value={email}
         placeholder="Enter your email"
         type="email"
         id="email-form"
@@ -44,10 +48,6 @@ const EmailListForm = ({ setShowAlert }) => {
       </div>
     </form>
   );
-};
-
-EmailListForm.propTypes = {
-  setShowAlert: PropTypes.func
 };
 
 export default EmailListForm;
