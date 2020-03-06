@@ -15,9 +15,9 @@ function reducer(state, action) {
     case "TOGGLE_BANNER": {
       return {
         ...state,
-        bannerVisible: action.bannerVisible,
-        bannerMessage: action.bannerMessage,
-        bannerType: action.bannerType
+        bannerVisible: action.bannerVisible || state.bannerVisible,
+        bannerMessage: action.bannerMessage || state.bannerMessage,
+        bannerType: action.bannerType || state.bannerType
       };
     }
     default:
