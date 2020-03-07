@@ -8,7 +8,7 @@ import hangoutIllustration from "../images/undraw_group_hangout.svg";
 function IndexPage() {
   return (
     <Layout>
-      <SEO keywords={[`ruby`, `rails`, `meetup`, `online`]} title="Home" />
+      <SEO />
       <div className="relative bg-white overflow-hidden">
         <div className="relative pt-6 pb-16 md:pb-20 lg:pb-24 xl:pb-32">
           <div className="max-w-screen-xl mx-auto px-4 pt-12 sm:px-6 lg:pt-16 lg:px-8">

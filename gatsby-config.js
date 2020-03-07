@@ -1,11 +1,16 @@
+const urljoin = require("url-join");
+const config = require("./data/site-config");
+
 module.exports = {
+  pathPrefix: config.pathPrefix,
   siteMetadata: {
-    title: `Ruby Meetup: Online`,
-    description: `Don't have any active Ruby meetups near you? Don't want to, or can't, go even if there are? We want to bring the joy of congregating with your Ruby friends to you with online Ruby meetups!`,
-    author: `Andrew Mason`,
-    siteUrl: `https://rubymeetup.online/`,
+    siteUrl: urljoin(config.siteUrl, config.pathPrefix),
+    title: config.siteTitle,
+    description: config.siteDescription,
+    author: config.author.name,
+    lang: config.lang,
     social: {
-      twitter: `andrewmcodes`
+      twitter: config.author.twitter
     }
   },
   plugins: [
@@ -14,14 +19,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Ruby Meetup: Online`,
-        short_name: `ruby_meetup`,
-        start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#5850ec`,
-        lang: `en`,
-        display: `standalone`,
-        icon: `src/images/icon.png`
+        name: config.siteTitle,
+        short_name: config.siteTitleShort,
+        start_url: config.pathPrefix,
+        background_color: config.backgroundColor,
+        theme_color: config.themeColor,
+        lang: config.lang,
+        display: config.display,
+        icon: config.siteLogo
       }
     },
     {
