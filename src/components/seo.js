@@ -11,11 +11,14 @@ function SEO({ description, lang, meta, keywords, title }) {
           title
           description
           author
+          image
+          social {
+            twitter
+          }
         }
       }
     }
   `);
-
   const metaDescription = description || site.siteMetadata.description;
 
   return (
@@ -41,12 +44,20 @@ function SEO({ description, lang, meta, keywords, title }) {
           content: `website`
         },
         {
-          name: `twitter:card`,
-          content: `summary`
+          name: `og:image`,
+          content: site.siteMetadata.image
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata.author
+          content: site.siteMetadata.social.twitter
+        },
+        {
+          name: `twitter:card`,
+          content: `summary_large_image`
+        },
+        {
+          name: `twitter:creator`,
+          content: site.siteMetadata.author.name
         },
         {
           name: `twitter:title`,
@@ -55,6 +66,10 @@ function SEO({ description, lang, meta, keywords, title }) {
         {
           name: `twitter:description`,
           content: metaDescription
+        },
+        {
+          name: `twitter:image`,
+          content: site.siteMetadata.image
         }
       ]
         .concat(
@@ -79,6 +94,7 @@ SEO.defaultProps = {
 };
 
 SEO.propTypes = {
+  image: PropTypes.string,
   description: PropTypes.string,
   keywords: PropTypes.arrayOf(PropTypes.string),
   lang: PropTypes.string,
