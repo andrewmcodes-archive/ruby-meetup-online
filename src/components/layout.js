@@ -9,7 +9,7 @@ import Header from "./header";
 
 function Layout({ children }) {
   const state = useContext(GlobalStateContext);
-  console.log(state);
+
   return (
     <div>
       <GithubCorner />
