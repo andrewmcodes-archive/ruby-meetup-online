@@ -47,10 +47,12 @@ module.exports = {
         tailwind: true,
         purgeOnly: [`src/css/style.css`],
         whitelist: [
-          `bg-red-600`,
+          `hover:bg-red-600`,
+          `focus:bg-red-600`,
           `bg-red-700`,
           `bg-red-800`,
-          `bg-green-600`,
+          `hover:bg-green-600`,
+          `focus:bg-green-600`,
           `bg-green-700`,
           `bg-green-800`
         ]
