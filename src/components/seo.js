@@ -11,7 +11,6 @@ function SEO() {
           title
           description
           author
-          image
           siteUrl
           lang
           social {
