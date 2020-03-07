@@ -45,7 +45,17 @@ module.exports = {
       resolve: `gatsby-plugin-purgecss`,
       options: {
         tailwind: true,
-        purgeOnly: [`src/css/style.css`]
+        purgeOnly: [`src/css/style.css`],
+        whitelist: [
+          `hover:bg-red-600`,
+          `focus:bg-red-600`,
+          `bg-red-700`,
+          `bg-red-800`,
+          `hover:bg-green-600`,
+          `focus:bg-green-600`,
+          `bg-green-700`,
+          `bg-green-800`
+        ]
       }
     },
     `gatsby-plugin-offline`
