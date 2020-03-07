@@ -8,7 +8,7 @@ module.exports = {
     title: config.siteTitle,
     description: config.siteDescription,
     author: config.author.name,
-    image: urljoin(config.siteUrl, config.pathPrefix, config.siteLogo),
+    lang: config.lang,
     social: {
       twitter: config.author.twitter
     }

@@ -7,7 +7,7 @@ import SEO from "../components/seo";
 function PrivacyPage() {
   return (
     <Layout>
-      <SEO keywords={[`ruby`, `rails`, `meetup`, `online`]} title="Privacy" />
+      <SEO />
       <div className="bg-white">
         <div className="max-w-screen-xl mx-auto pt-12 pb-16 sm:pt-16 sm:pb-20 px-4 sm:px-6 lg:pt-20 lg:pb-28 lg:px-8">
           <h2 className="text-3xl leading-9 font-extrabold text-gray-900">
