@@ -7,7 +7,11 @@ const Banner = ({ type, message }) => {
   const isError = type === "error";
   const color = isError ? "red" : "green";
   const handleClick = () => {
-    dispatch({ type: "TOGGLE_BANNER", bannerVisible: false });
+    console.log("handling click");
+    dispatch({
+      type: "TOGGLE_BANNER",
+      bannerVisible: false
+    });
   };
 
   return (
