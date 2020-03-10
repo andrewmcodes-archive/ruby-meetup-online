@@ -21,9 +21,9 @@ function IndexPage() {
                   </span>
                 </h2>
                 <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                  Don&apos;t have any active Ruby meetups near you? 
-                  Can&apos;t attend even if there are? We want to bring
-                  the joy of congregating with your Ruby friends to you with{" "}
+                  Don&apos;t have any active Ruby meetups near you? Can&apos;t
+                  attend even if there are? We want to bring the joy of
+                  congregating with your Ruby friends to you with{" "}
                   <strong>online Ruby meetups!</strong>
                 </p>
                 <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
