@@ -38,6 +38,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "matthewmayer",
+      "name": "Matt Mayer",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/152770?v=4",
+      "profile": "https://www.mattmayer.com/",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "projectName": "ruby-meetup-online",

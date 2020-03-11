@@ -23,7 +23,7 @@
 
 <!-- prettier-ignore-start -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <!-- prettier-ignore-end -->
 
@@ -92,6 +92,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://andrewfomera.com"><img src="https://avatars1.githubusercontent.com/u/1741179?v=4" width="100px;" alt=""/><br /><sub><b>Andrew Fomera</b></sub></a></td>
     <td align="center"><a href="https://www.andrewm.codes"><img src="https://avatars1.githubusercontent.com/u/18423853?v=4" width="100px;" alt=""/><br /><sub><b>Andrew Mason</b></sub></a></td>
     <td align="center"><a href="http://www.julianrubisch.at"><img src="https://avatars0.githubusercontent.com/u/4352208?v=4" width="100px;" alt=""/><br /><sub><b>Julian Rubisch</b></sub></a></td>
+    <td align="center"><a href="https://www.mattmayer.com/"><img src="https://avatars1.githubusercontent.com/u/152770?v=4" width="100px;" alt=""/><br /><sub><b>Matt Mayer</b></sub></a></td>
   </tr>
 </table>
 
