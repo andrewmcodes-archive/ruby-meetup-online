@@ -4,7 +4,7 @@ import { Link } from "gatsby";
 import EmailListForm from "./email-list-form";
 
 const FormCard = () => (
-  <div className="max-w-screen-xl mx-auto px-4 py-12 sm:px-6 lg:py-16 lg:px-8">
+  <div className="transition-shadow ease-in duration-700 max-w-screen-xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
     <div className="shadow-2xl px-6 py-6 bg-gray-800 rounded-lg md:py-12 md:px-12 lg:py-16 lg:px-16 text-center xl:text-left xl:flex xl:items-center">
       <div className="xl:w-0 xl:flex-1">
         <h2 className="text-2xl leading-8 font-extrabold tracking-tight text-white sm:text-3xl sm:leading-9">

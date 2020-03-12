@@ -2,7 +2,17 @@
 @tailwind base;
 @tailwind components;
 /* purgecss end ignore */
+
 .text-10xl {
   font-size: 10rem;
 }
+
+div#cf[data-template=horizontal][data-theme=light] span.cf-wrapper a.cf-text:before {
+background-color: #5850ec !important;
+}
+
+.h-46 {
+  height: 46px;
+}
+
 @tailwind utilities;

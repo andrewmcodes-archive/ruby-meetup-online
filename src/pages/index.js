@@ -1,4 +1,5 @@
 import React from "react";
+import ScriptTag from "react-script-tag";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -34,8 +35,8 @@ function IndexPage() {
                   If this is something you are interested in, please enter your
                   email below. Planning an online meetup (or{" "}
                   <i>_potentially_</i> a conference{" "}
-                  <span role="img" aria-label="monocle face">
-                    🧐
+                  <span role="img" aria-label="thinking face">
+                    🤔
                   </span>
                   ) is a lot of work, and we would like to make sure there is
                   enough interest before moving forward!
@@ -52,6 +53,14 @@ function IndexPage() {
                   </button>
                 </div>
               </div>
+            </div>
+            <div className="mt-8 relative w-full h-46">
+              <div id="codefund" className="shadow-sm"></div>
+              <ScriptTag
+                type="text/javascript"
+                src="https://app.codefund.io/properties/766/funder.js"
+                async={true}
+              />
             </div>
           </div>
           <FormCard />

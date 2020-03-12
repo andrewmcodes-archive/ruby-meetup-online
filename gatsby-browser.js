@@ -10,3 +10,7 @@ export const wrapRootElement = ({ element }) => {
 wrapRootElement.propTypes = {
   element: PropTypes.any
 };
+
+// export const shouldUpdateScroll = () => {
+//   return false;
+// };

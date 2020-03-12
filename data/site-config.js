@@ -6,7 +6,7 @@ const config = {
   siteUrl: "https://rubymeetup.online",
   pathPrefix: "/",
   siteDescription:
-    "Don't have any active Ruby meetups near you? Don't want to, or can't, go even if there are? We want to bring the joy of congregating with your Ruby friends to you with online Ruby meetups!",
+    "Don't have any active Ruby meetups near you? Can't attend even if there are? We want to bring the joy of congregating with your Ruby friends to you with online Ruby meetups!",
   themeColor: "#5850ec",
   backgroundColor: "#ffffff",
   lang: "en",
