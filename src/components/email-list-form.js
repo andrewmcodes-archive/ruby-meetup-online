@@ -41,7 +41,7 @@ const EmailListForm = () => {
       <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0">
         <button
           type="submit"
-          className="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-500 dark:bg-gray-800 hover:bg-indigo-400 dark-hover:bg-gray-900 focus:outline-none focus:bg-indigo-400 dark-focus:bg-gray-400 transition duration-150 ease-in-out"
+          className="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-blue-500 dark:bg-gray-800 hover:bg-blue-400 dark-hover:bg-gray-900 focus:outline-none focus:bg-blue-400 dark-focus:bg-gray-400 transition duration-150 ease-in-out"
         >
           Notify me
         </button>

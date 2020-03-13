@@ -4,6 +4,7 @@ import CodeFundAd from "../components/code-fund-ad";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import FormCard from "../components/form-card";
+import Share from "../components/share";
 import HangoutIllustration from "../images/undraw_group_hangout.svg";
 
 function IndexPage() {
@@ -17,7 +18,7 @@ function IndexPage() {
               <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
                 <h2 className="mt-1 text-4xl tracking-tight leading-10 font-extrabold text-gray-900 dark:text-white sm:leading-none sm:text-6xl lg:text-5xl xl:text-6xl">
                   Experience a Ruby Meetup{` `}
-                  <span className="text-indigo-600 dark:text-indigo-600">
+                  <span className="text-blue-600 dark:text-blue-600">
                     from the comfort of your couch.
                   </span>
                 </h2>
@@ -52,9 +53,12 @@ function IndexPage() {
                 </div>
               </div>
             </div>
-            <CodeFundAd />
           </div>
-          <FormCard />
+          <div className="max-w-screen-xl mx-auto px-4 py-8 pt-16 sm:px-6 lg:px-8">
+            <CodeFundAd />
+            <FormCard />
+            <Share />
+          </div>
         </div>
       </div>
     </Layout>
