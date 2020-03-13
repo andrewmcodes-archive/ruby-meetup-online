@@ -9,11 +9,11 @@ function GithubCorner() {
         aria-label="View source on GitHub"
       >
         <svg
-          width={80}
-          height={80}
+          width={64}
+          height={64}
           viewBox="0 0 250 250"
           style={{
-            fill: "#252f3f",
+            fill: "#161e2e",
             color: "#fff",
             position: "absolute",
             top: 0,

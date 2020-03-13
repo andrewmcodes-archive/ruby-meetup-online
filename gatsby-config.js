@@ -59,7 +59,8 @@ module.exports = {
           `hover:bg-green-600`,
           `focus:bg-green-600`,
           `bg-green-700`,
-          `bg-green-800`
+          `bg-green-800`,
+          `mode-dark`
         ]
       }
     },

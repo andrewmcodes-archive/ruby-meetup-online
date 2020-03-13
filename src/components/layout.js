@@ -1,13 +1,19 @@
 import PropTypes from "prop-types";
 import React, { useContext } from "react";
 import { GlobalStateContext } from "../context/GlobalContextProvider";
-
+import isDarkMode from "../utils/is-dark-mode";
 import Banner from "./banner";
 import Footer from "./footer";
 import GithubCorner from "./github-corner";
 import Header from "./header";
 
-function Layout({ children }) {
+if (isDarkMode()) {
+  document.documentElement.classList.add("mode-dark");
+} else {
+  document.documentElement.classList.remove("mode-dark");
+}
+
+const Layout = ({ children }) => {
   const state = useContext(GlobalStateContext);
 
   return (
@@ -21,7 +27,7 @@ function Layout({ children }) {
       <Footer />
     </div>
   );
-}
+};
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired
