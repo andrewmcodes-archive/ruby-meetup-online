@@ -1,14 +1,14 @@
 /* eslint-disable */
 
-const React = require("react");
+import React from "react";
 
 const applyDarkModeClass = `
 (function() {
   try {
     var mode = localStorage.getItem('theme');
     if (mode === 'dark') {
-			document.body.classList.add('dark');
-		}
+      document.body.classList.add('dark');
+    }
   } catch (e) {}
 })();
 `;
@@ -22,9 +22,8 @@ export const onRenderBody = ({ setPreBodyComponents }) => {
   setPreBodyComponents([script]);
 };
 
-const GlobalContextProvider = require("./src/context/GlobalContextProvider")
-  .default;
+import GlobalContextProvider from "./src/context/GlobalContextProvider";
 
-exports.wrapRootElement = ({ element }) => {
+export const wrapRootElement = ({ element }) => {
   return <GlobalContextProvider>{element}</GlobalContextProvider>;
 };
