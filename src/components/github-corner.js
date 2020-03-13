@@ -13,7 +13,7 @@ function GithubCorner() {
           height={64}
           viewBox="0 0 250 250"
           style={{
-            fill: "#161e2e",
+            fill: "#1c64f2",
             color: "#fff",
             position: "absolute",
             top: 0,

@@ -19,7 +19,7 @@ function NotFoundPage() {
                   alt="Taken illustration"
                 />
                 <div className="absolute inset-0 w-screen h-full flex items-center justify-center">
-                  <h1 className="text-10xl tracking-tight font-extrabold text-indigo-600">
+                  <h1 className="text-10xl tracking-tight font-extrabold text-blue-600">
                     404
                   </h1>
                 </div>

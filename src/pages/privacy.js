@@ -51,7 +51,7 @@ function PrivacyPage() {
                       our subscribers.
                       <a
                         href="https://mailchimp.com/legal/privacy/"
-                        className="font-medium text-gray-900 dark:text-indigo-400 underline"
+                        className="font-medium text-gray-900 dark:text-blue-400 underline"
                       >
                         Read their privacy policy
                       </a>
@@ -61,7 +61,7 @@ function PrivacyPage() {
                       Netlify, which hosts this website.
                       <a
                         href="https://www.netlify.com/privacy/"
-                        className="font-medium text-gray-900 dark:text-indigo-400 underline"
+                        className="font-medium text-gray-900 dark:text-blue-400 underline"
                       >
                         Read their privacy policy
                       </a>
@@ -77,7 +77,7 @@ function PrivacyPage() {
                     To make a request please contact Andrew Mason at{" "}
                     <a
                       href="mailto:andrewmcodes@protonmail.com"
-                      className="font-medium text-gray-900 dark:text-indigo-400 underline"
+                      className="font-medium text-gray-900 dark:text-blue-400 underline"
                     >
                       andrewmcodes@protonmail.com
                     </a>
