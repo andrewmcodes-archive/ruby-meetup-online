@@ -65,10 +65,6 @@ function SEO() {
           content: `summary_large_image`
         },
         {
-          name: `twitter:creator`,
-          content: site.siteMetadata.author.name
-        },
-        {
           name: `twitter:title`,
           content: title
         },

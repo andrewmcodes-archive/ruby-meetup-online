@@ -2,14 +2,14 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="bg-gray-800">
+    <footer className="bg-gray-800 dark:bg-gray-800">
       <div className="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
         <div className="flex justify-center md:order-2">
           <a
             href="https://twitter.com/andrewmcodes"
             target="_blank"
             rel="noopener noreferrer"
-            className="ml-6 text-gray-400 hover:text-gray-500"
+            className="ml-6 text-gray-400 hover:text-gray-500 dark-text-gray-200 dark-hover:text-gray-300"
           >
             <span className="sr-only">Twitter</span>
             <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
@@ -20,7 +20,7 @@ function Footer() {
             href="https://github.com/andrewmcodes"
             target="_blank"
             rel="noopener noreferrer"
-            className="ml-6 text-gray-400 hover:text-gray-500"
+            className="ml-6 text-gray-400 hover:text-gray-500 dark-text-gray-200 dark-hover:text-gray-300"
           >
             <span className="sr-only">GitHub</span>
             <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
@@ -33,7 +33,7 @@ function Footer() {
           </a>
         </div>
         <div className="mt-8 md:mt-0 md:order-1">
-          <p className="text-center text-base leading-6 text-gray-400">
+          <p className="text-center text-base leading-6 text-gray-400 dark:text-gray-400">
             © 2020 Andrew Mason. All rights reserved.
           </p>
         </div>

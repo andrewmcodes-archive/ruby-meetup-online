@@ -8,9 +8,9 @@ function PrivacyPage() {
   return (
     <Layout>
       <SEO />
-      <div className="bg-white">
+      <div className="bg-white dark:bg-gray-900">
         <div className="max-w-screen-xl mx-auto pt-12 pb-16 sm:pt-16 sm:pb-20 px-4 sm:px-6 lg:pt-20 lg:pb-28 lg:px-8">
-          <h2 className="text-3xl leading-9 font-extrabold text-gray-900">
+          <h2 className="text-3xl leading-9 font-extrabold text-gray-900 dark:text-white">
             Privacy Policy
           </h2>
           <div className="mt-6 border-t-2 border-gray-100 pt-10">
@@ -24,7 +24,7 @@ function PrivacyPage() {
                   term="Data you send to us voluntarily via our contact forms"
                   description="This website may collect the following information via its contact and enquiry form features (use of these features is optional):"
                 >
-                  <ul className="ml-6 mt-4 list-disc">
+                  <ul className="ml-6 mt-4 list-disc dark:text-gray-200">
                     <li>Email Address</li>
                   </ul>
                 </FAQItem>
@@ -33,7 +33,7 @@ function PrivacyPage() {
                   description="We are collecting this data to understand if the community is interested in online Ruby meetups. We will not share your personal information with or sell it
                     to third-party marketers. Specifically, we may use data:"
                 >
-                  <ul className="ml-6 mt-4 list-disc">
+                  <ul className="ml-6 mt-4 list-disc dark:text-gray-200">
                     <li>For our own internal records</li>
                     <li>To contact you in the event we decide to proceed</li>
                   </ul>
@@ -44,14 +44,14 @@ function PrivacyPage() {
                   term="Third-party Service Providers"
                   description="We may use the following third-party service providers named below to process and store your data. We will not share your personal information with any other third-party unless we have your permission or the law requires us to."
                 >
-                  <ul className="ml-6 mt-4 list-disc">
+                  <ul className="ml-6 mt-4 list-disc dark:text-gray-200">
                     <li>
                       Mailchimp (The Rocket Science Group, LLC), which we use to
                       manage email marketing subscriber lists and send emails to
                       our subscribers.
                       <a
                         href="https://mailchimp.com/legal/privacy/"
-                        className="font-medium text-gray-900 underline"
+                        className="font-medium text-gray-900 dark:text-indigo-400 underline"
                       >
                         Read their privacy policy
                       </a>
@@ -61,7 +61,7 @@ function PrivacyPage() {
                       Netlify, which hosts this website.
                       <a
                         href="https://www.netlify.com/privacy/"
-                        className="font-medium text-gray-900 underline"
+                        className="font-medium text-gray-900 dark:text-indigo-400 underline"
                       >
                         Read their privacy policy
                       </a>
@@ -77,7 +77,7 @@ function PrivacyPage() {
                     To make a request please contact Andrew Mason at{" "}
                     <a
                       href="mailto:andrewmcodes@protonmail.com"
-                      className="font-medium text-gray-900 underline"
+                      className="font-medium text-gray-900 dark:text-indigo-400 underline"
                     >
                       andrewmcodes@protonmail.com
                     </a>

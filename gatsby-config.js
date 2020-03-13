@@ -16,6 +16,7 @@ module.exports = {
   plugins: [
     "gatsby-plugin-eslint",
     `gatsby-plugin-react-helmet`,
+    "gatsby-plugin-sitemap",
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -59,7 +60,8 @@ module.exports = {
           `hover:bg-green-600`,
           `focus:bg-green-600`,
           `bg-green-700`,
-          `bg-green-800`
+          `bg-green-800`,
+          `mode-dark`
         ]
       }
     },
