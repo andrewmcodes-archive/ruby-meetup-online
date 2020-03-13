@@ -1,17 +1,17 @@
 import PropTypes from "prop-types";
 import React, { useContext } from "react";
 import { GlobalStateContext } from "../context/GlobalContextProvider";
-import isDarkMode from "../utils/is-dark-mode";
+import isLightMode from "../utils/is-light-mode";
 import Banner from "./banner";
 import Footer from "./footer";
 import GithubCorner from "./github-corner";
 import Header from "./header";
 
 if (typeof document !== "undefined") {
-  if (isDarkMode()) {
-    document.documentElement.classList.add("mode-dark");
-  } else {
+  if (isLightMode()) {
     document.documentElement.classList.remove("mode-dark");
+  } else {
+    document.documentElement.classList.add("mode-dark");
   }
 }
 
