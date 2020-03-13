@@ -7,10 +7,12 @@ import Footer from "./footer";
 import GithubCorner from "./github-corner";
 import Header from "./header";
 
-if (isDarkMode() && typeof document !== "undefined") {
-  document.documentElement.classList.add("mode-dark");
-} else {
-  document.documentElement.classList.remove("mode-dark");
+if (typeof document !== "undefined") {
+  if (isDarkMode()) {
+    document.documentElement.classList.add("mode-dark");
+  } else {
+    document.documentElement.classList.remove("mode-dark");
+  }
 }
 
 const Layout = ({ children }) => {
