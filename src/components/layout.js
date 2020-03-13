@@ -7,7 +7,7 @@ import Footer from "./footer";
 import GithubCorner from "./github-corner";
 import Header from "./header";
 
-if (isDarkMode()) {
+if (isDarkMode() && typeof document !== "undefined") {
   document.documentElement.classList.add("mode-dark");
 } else {
   document.documentElement.classList.remove("mode-dark");
