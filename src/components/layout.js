@@ -6,6 +6,7 @@ import Banner from "./banner";
 import Footer from "./footer";
 import GithubCorner from "./github-corner";
 import Header from "./header";
+import Announcement from "./announcement";
 
 if (typeof document !== "undefined") {
   if (isLightMode()) {
@@ -22,6 +23,11 @@ const Layout = ({ children }) => {
     <div>
       <GithubCorner />
       <Header />
+      <Announcement
+        message="Please consider taking a quick survey to help us plan!"
+        link="https://forms.gle/CFZ3cozDQtE5Hn356"
+        cta="Take the survey"
+      />
       <main>{children}</main>
       {state.bannerVisible && (
         <Banner message={state.bannerMessage} type={state.bannerType} />
