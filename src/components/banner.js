@@ -14,14 +14,14 @@ const Banner = ({ type, message }) => {
   };
 
   return (
-    <div className="fixed bottom-0 inset-x-0 pb-2 sm:pb-5">
-      <div className="max-w-screen-xl mx-auto px-2 sm:px-4 lg:px-6">
+    <div className="fixed inset-x-0 bottom-0 pb-2 sm:pb-5">
+      <div className="max-w-screen-xl px-2 mx-auto sm:px-4 lg:px-6">
         <div className={`p-2 rounded-lg bg-${color}-700 shadow-lg sm:p-3`}>
-          <div className="flex items-center justify-between flex-wrap">
-            <div className="w-0 flex-1 flex items-center">
+          <div className="flex flex-wrap items-center justify-between">
+            <div className="flex items-center flex-1 w-0">
               <span className={`flex p-2 rounded-lg bg-${color}-800`}>
                 <svg
-                  className="h-6 w-6 text-white"
+                  className="w-6 h-6 text-white"
                   stroke="currentColor"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -48,17 +48,21 @@ const Banner = ({ type, message }) => {
                 <span className="md:hidden">
                   {type.charAt(0).toUpperCase() + type.substring(1)}
                 </span>
-                <span className="hidden md:inline">{message}.</span>
+                <span
+                  className="hidden md:inline"
+                  dangerouslySetInnerHTML={{ __html: message }}
+                />
+                .
               </p>
             </div>
-            <div className="order-2 flex-shrink-0 sm:order-3 sm:ml-2">
+            <div className="flex-shrink-0 order-2 sm:order-3 sm:ml-2">
               <button
                 type="button"
                 className={`-mr-1 flex p-2 rounded-md hover:bg-${color}-600 focus:outline-none focus:bg-${color}-600 transition ease-in-out duration-150`}
                 onClick={handleClick}
               >
                 <svg
-                  className="h-6 w-6 text-white"
+                  className="w-6 h-6 text-white"
                   stroke="currentColor"
                   fill="none"
                   viewBox="0 0 24 24"

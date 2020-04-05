@@ -30,7 +30,7 @@ const EmailListForm = () => {
     <form onSubmit={handleSubmit} className="sm:flex">
       <input
         aria-label="Email address"
-        className="appearance-none w-full px-5 py-3 border border-transparent text-base leading-6 rounded-md text-gray-900 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 transition duration-150 ease-in-out sm:max-w-xs"
+        className="w-full px-5 py-3 text-base leading-6 text-gray-900 placeholder-gray-500 transition duration-150 ease-in-out bg-white border border-transparent rounded-md appearance-none form-input focus:outline-none focus:placeholder-gray-400 sm:max-w-xs"
         name="email"
         onChange={handleEmailChange}
         value={email}
@@ -41,7 +41,7 @@ const EmailListForm = () => {
       <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0">
         <button
           type="submit"
-          className="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-blue-500 dark:bg-gray-800 hover:bg-blue-400 dark-hover:bg-gray-900 focus:outline-none focus:bg-blue-400 dark-focus:bg-gray-400 transition duration-150 ease-in-out"
+          className="flex items-center justify-center w-full px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-500 border border-transparent rounded-md dark:bg-gray-800 hover:bg-blue-400 dark-hover:bg-gray-900 focus:outline-none focus:bg-blue-400 dark-focus:bg-gray-400"
         >
           Notify me
         </button>
